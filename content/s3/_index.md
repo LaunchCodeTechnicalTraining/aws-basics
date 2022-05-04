@@ -1,0 +1,37 @@
+---
+title: "S3"
+date: 2022-05-04T13:43:26-05:00
+draft: false
+weight: 100
+originalAuthor: <no value> # to be set by page creator
+originalAuthorGitHub: <no value> # to be set by page creator
+reviewer: # to be set by the page reviewer
+reviewerGitHub: # to be set by the page reviewer
+lastEditor: # update any time edits are made after review
+lastEditorGitHub: # update any time edits are made after review
+lastMod: # UPDATE ANY TIME CHANGES ARE MADE
+---
+
+## Notes from POC
+
+### Create an AWS Account
+
+### Install AWS CLI
+- Configure with secret key and access
+- Use default for region and *
+
+### Make new s3 bucket
+- aws s3 mb bucket-name
+
+### Add build artificats / static web resources
+- aws s3 cp target-file-local-file-or-directory s3://target-s3-bucket --acl "public-read"
+
+### Configure static website
+- aws s3 website s3://bucket-name --index-document index.html
+
+### Find bucket https://location via console
+
+
+## Content Links
+
+{{% children %}}
