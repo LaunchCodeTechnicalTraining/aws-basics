@@ -2,7 +2,7 @@
 title: "Curriculum Outline"
 date: 2022-05-04T13:45:41-05:00
 draft: false
-hidden: false
+hidden: true
 weight: 200
 ---
 
