@@ -30,4 +30,4 @@ Replace the content of this entire file with the desired homepage contents of th
 
 [Relearn Documentation](https://mcshelby.github.io/hugo-theme-relearn/)
 
-[Live link to Linux Curriculum](https://lctt-linux.netlify.app/)
+[Live link to Linux Curriculum](https://launchcodetechnicaltraining.org/linux)
