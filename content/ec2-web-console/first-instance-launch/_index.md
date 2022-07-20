@@ -42,9 +42,21 @@ In order to access our machine through the terminal you will need to provide an 
 
 Click on the `Create new key pair` button.
 
+### Creating a new SSH Key Pair
+
 ![Create a new Key Pair Menu](pictures/new-key-pair.png?classes=border)
 
+Provide the name `first-key-pair`.
+
+You will be leaving the Key pair type as `RSA` and the file format as a `.pem` file.
+
 ![New Key Pair Name](pictures/first-key-pair.png?classes=border)
+
+{{% notice note %}}
+After you click `Create key pair` it will download a new file to your machine called `first-key-pair.pem`. You will need access to this file in order to ssh into your new machine in the future. So make sure you know where it is located!
+{{% /notice %}}
+
+Click the `Create key pair` button.
 
 ### Network Settings
 
